@@ -88,3 +88,7 @@ background: #f5f4fa;
   text-decoration: none;
   color: var(--white-text-color);
 }
+.footer-text-title {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
