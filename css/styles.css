@@ -35,6 +35,7 @@ background: #f5f4fa;
 }
 
 .list {
+  text-decoration: none;
   list-style: none;
 }
 /* site-nav */
@@ -44,6 +45,7 @@ background: #f5f4fa;
 }
 .site-nav :hover,
 .site-nav :focus {
+  text-decoration: none;
   color: var(--primary-text-color);
 }
 
@@ -54,20 +56,24 @@ background: #f5f4fa;
 }
 .site-nav-contact :hover,
 .site-nav-contact :focus {
+  text-decoration: none;
   color: var(--secondary-text-color);
 }
 
 /* hero */
 .hero-title {
+  text-decoration: none;
   color: var(--white-text-color);
 }
 
 /* section */
 .section-title {
+  text-decoration: none;
   color: var(--primary-text-color);
 }
 /* feauteres */
 .feauteres-title {
+  text-decoration: none;
   color: var(--secondary-text-color);
 }
 /* button */
@@ -75,4 +81,10 @@ background: #f5f4fa;
   text-decoration: none;
   color: var(--white-text-color);
   background-color: var(--akcent);
+}
+/* white-text-title*/
+
+.white-text-title {
+  text-decoration: none;
+  color: var(--white-text-color);
 }
