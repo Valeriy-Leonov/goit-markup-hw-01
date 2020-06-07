@@ -25,10 +25,12 @@ background: #f5f4fa;
 background: #f5f4fa;
 
 .logo {
+  text-decoration: none;
   color: var(--primary-text-color);
 }
 
 .logo:hover {
+  text-decoration: none;
   color: var(--akcent);
 }
 
@@ -37,11 +39,22 @@ background: #f5f4fa;
 }
 /* site-nav */
 .site-nav a {
+  text-decoration: none;
   color: var(--akcent);
 }
 .site-nav :hover,
 .site-nav :focus {
   color: var(--primary-text-color);
+}
+
+/* contact list */
+.site-nav-contact a {
+  text-decoration: none;
+  color: var(--akcent);
+}
+.site-nav-contact :hover,
+.site-nav-contact :focus {
+  color: var(--secondary-text-color);
 }
 
 /* hero */
@@ -56,4 +69,10 @@ background: #f5f4fa;
 /* feauteres */
 .feauteres-title {
   color: var(--secondary-text-color);
+}
+/* button */
+.button {
+  text-decoration: none;
+  color: var(--white-text-color);
+  background-color: var(--akcent);
 }
